@@ -1,28 +1,11 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { Header, Dashboard } from '$lib/components/layout';
-	import { SettingsModal, MonitorFormModal, OnboardingModal } from '$lib/components/modals';
-	import {
-		NewsPanel,
-		MarketsPanel,
-		HeatmapPanel,
-		CommoditiesPanel,
-		CryptoPanel,
-		MainCharPanel,
-		CorrelationPanel,
-		NarrativePanel,
-		MonitorsPanel,
-		MapPanel,
-		WhalePanel,
-		PolymarketPanel,
-		ContractsPanel,
-		LayoffsPanel,
-		IntelPanel,
-		SituationPanel,
-		WorldLeadersPanel,
-		PrinterPanel,
-		FedPanel
-	} from '$lib/components/panels';
+	import { Header } from '$lib/components/zh/layout';
+	import { Dashboard } from '$lib/components/layout';
+	import { SettingsModal } from '$lib/components/zh/modals';
+	import { MonitorFormModal } from '$lib/components/zh/modals';
+	import { OnboardingModal } from '$lib/components/zh/modals';
+	import { NewsPanel, MarketsPanel, HeatmapPanel, CommoditiesPanel, CryptoPanel, MainCharPanel, CorrelationPanel, NarrativePanel, MonitorsPanel, MapPanel, WhalePanel, PolymarketPanel, ContractsPanel, LayoffsPanel, IntelPanel, SituationPanel, WorldLeadersPanel, PrinterPanel, FedPanel } from '$lib/components/zh/panels';
 	import {
 		news,
 		markets,
